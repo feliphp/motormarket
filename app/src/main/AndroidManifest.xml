@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="motormarket.com.mx.motormarket" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="myapp.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-library android:name="com.google.android.maps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tips"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".Web"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name=".Expertos"
+            android:label="@string/title_activity_expertos" >
+        </activity>
+        <activity
+            android:name=".Trivia"
+            android:label="@string/title_activity_trivia" >
+        </activity>
+        <activity
+            android:name=".Video"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".Incorrecta"
+            android:label="@string/title_activity_incorrecta" >
+        </activity>
+        <activity
+            android:name=".Correcta"
+            android:label="@string/title_activity_correcta" >
+        </activity>
+        <activity
+            android:name=".Encontrar"
+            android:label="@string/title_activity_encontrar" >
+        </activity>
+        <activity
+            android:name=".MapsGas"
+            android:label="@string/title_activity_maps_gas" >
+        </activity>
+        <activity
+            android:name=".MapsTaller"
+            android:label="@string/title_activity_maps_taller" >
+        </activity>
+        <activity
+            android:name=".MapsRefaccion"
+            android:label="@string/title_activity_maps_refaccion" >
+        </activity>
+        <activity
+            android:name=".Maps_Autoboutique"
+            android:label="@string/title_activity_maps__autoboutique" >
+        </activity>
+        <activity
+            android:name=".MapsEstacionamientos"
+            android:label="@string/title_activity_maps_estacionamientos" >
+        </activity>
+        <activity
+            android:name=".MapsLlanteras"
+            android:label="@string/title_activity_maps_llanteras" >
+        </activity>
+        <activity
+            android:name=".MapsVulcanizadoras"
+            android:label="@string/title_activity_maps_vulcanizadoras" >
+        </activity>
+        <activity
+            android:name=".MapsAutolavado"
+            android:label="@string/title_activity_maps_autolavado" >
+        </activity>
+        <activity
+            android:name=".MapsEstacionamientos"
+            android:label="@string/title_activity_maps_estacionamientos" >
+        </activity>
+        <activity
+            android:name=".MapsAgencias"
+            android:label="@string/title_activity_maps_agencias" >
+        </activity>
+        <activity
+            android:name=".MapsSitiostaxi"
+            android:label="@string/title_activity_maps_sitiostaxi" >
+        </activity>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB3zFwi-06lRvxtJZxhc2NUeIdJ-8dFmJw" />
+    </application>
+
+</manifest>

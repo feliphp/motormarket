@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Motormarket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_maps">Hello Maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Descripción</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_encontrar">Encontrar</string>
+    <string name="title_activity_expertos">Expertos</string>
+    <string name="title_activity_trivia">Trivia</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_web">Web</string>
+    <string name="triviaPregunta">¿En que año se fabricó la primer GSXR?</string>
+    <string name="respuesta1">1983</string>
+    <string name="respuesta2">1990</string>
+    <string name="respuesta3">1985</string>
+    <string name="respuesta4">1986</string>
+    <string name="title_activity_incorrecta">Incorrecta</string>
+    <string name="incorrecta">Tu Respuesta Es Incorrecta</string>
+    <string name="correcta">Felicidades, Respuesta Correcta</string>
+    <string name="regresar">Regresar</string>
+    <string name="home">Ir al Home</string>
+    <string name="title_activity_correcta">Correcta</string>
+    <string name="btnmap1">Gasolineras</string>
+    <string name="btnmap2">Talleres</string>
+    <string name="btnmap3">Refaccionarias</string>
+    <string name="btnmap4">Autoboutiques</string>
+    <string name="btnmap5">Llanteras</string>
+    <string name="btnmap6">Vulcanizadoras</string>
+    <string name="btnmap7">Autolavado</string>
+    <string name="btnmap8">Estacionamientos</string>
+    <string name="btnmap9">Agencias</string>
+    <string name="btnmap10">Sitios De Taxi</string>
+    <string name="title_activity_maps_gas">MapsGas</string>
+    <string name="title_activity_maps_taller">MapsTaller</string>
+    <string name="title_activity_maps_refaccion">MapsRefaccion</string>
+    <string name="title_activity_maps__autoboutique">Maps_Autoboutique</string>
+    <string name="title_activity_maps_estacionamientos">MapsEstacionamientos</string>
+    <string name="title_activity_maps_llanteras">MapsLlanteras</string>
+    <string name="title_activity_maps_vulcanizadoras">MapsVulcanizadoras</string>
+    <string name="title_activity_maps_autolavado">MapsAutolavado</string>
+    <string name="title_activity_maps_estacionamiento">MapsEstacionamiento</string>
+    <string name="title_activity_maps_agencias">MapsAgencias</string>
+    <string name="title_activity_maps_sitiostaxi">MapsSitiostaxi</string>
+
+</resources>

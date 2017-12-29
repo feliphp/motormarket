@@ -1,0 +1,62 @@
+package motormarket.com.mx.motormarket;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.content.Intent;
+import android.view.View;
+
+
+public class MainActivity extends ActionBarActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void tips(View v){
+        Intent secundario= new Intent(this, Tips.class);
+        startActivity(secundario);
+    }
+    public void expertos(View v){
+        Intent secundario= new Intent(this, Expertos.class);
+        startActivity(secundario);
+    }
+    public void video(View v){
+        Intent secundario= new Intent(this, Video.class);
+        startActivity(secundario);
+    }
+    public void trivia(View v){
+        Intent secundario= new Intent(this, Trivia.class);
+        startActivity(secundario);
+    }
+    public void encontrar(View v){
+        Intent secundario= new Intent(this, Encontrar.class);
+        startActivity(secundario);
+    }
+    public void web(View v){
+        Intent secundario= new Intent(this, Web.class);
+        startActivity(secundario);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}
